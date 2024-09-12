@@ -1,43 +1,61 @@
-Portfolio Website Creator
-This is a simple PHP/MySQLi project that helps you create a portfolio website to market your company or yourself as a freelancer to clients. The project includes an admin panel to easily modify the contents.
+# Portfolio Website Creator
 
-Features
-Admin Panel:
-Login/Logout
-Dashboard
-Manage System Settings
-Manage Account
-Update About Content
-Manage Educational Attainment Details
-Manage Work Experience Details
-Manage Projects Completed
-Manage Contacts
-How to Run
-Requirements
-Download and install a local web server such as XAMPP/WAMP
-Download the provided source code zip file
-Installation/Setup
-Open your XAMPP/WAMP's Control Panel and start the "Apache" and "MySQL"
-Extract the downloaded source code file
-If using XAMPP, copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory. If using WAMP, paste it into the "www" directory
-Browse PHPMyAdmin in a browser (e.g. http://localhost/phpmyadmin)
-Create a new database named "db_freelance"
-Import the provided SQL file (db_freelance.sql) located inside the "database" folder
-Browse the Simple Portfolio Website Creator in a browser (e.g. http://localhost/freelance for the website and http://localhost/freelance/admin for the admin panel)
-Admin Access Information
-Username: admin
-Password: admin123
-Note
-Due to the size or complexity of this submission, the author has submitted it as a .zip file to shorten your download time. After downloading it, you will need a program like Winzip to decompress it.
-Virus note: All files are scanned once-a-day by SourceCodester.com for viruses, but new viruses come out every day, so no prevention program can catch 100% of them. For your own safety, please:
-Re-scan downloaded files using your personal virus checker before using it.
-NEVER, EVER run compiled files (.exe's, .ocx's, .dll's etc.)--only run source code.
-Tags
-php
-simple website
-Freelance Website Creator
-portfolio website
-Company Portfolio Website
-MySQL Database
-AdminLTE
-Bootstrap
+This is a simple **PHP/MySQLi Project** called **Portfolio Website Creator**. This project is designed to help you market your company or yourself as a Freelancer to clients. It includes an Admin Panel to modify the contents easily. The website dynamically displays the company/person's information, educational attainment, work experience, and projects. All content is manageable through the Admin Panel.
+
+This project is developed using **PHP**, **MySQLi**, **MySQL Database**, **HTML**, **CSS**, **JavaScript** (jQuery and Ajax), **Bootstrap**, and other plugins/libraries. It uses a free-made template for the portfolio website and the **AdminLTE Template** for the Admin Panel.
+
+## Features
+
+### Admin Panel
+- Login/Logout
+- Dashboard
+- Manage System Settings
+- Manage Account
+- Update About Content
+- Manage Educational Attainment Details
+- Manage Work Experience Details
+- Manage Projects Completed
+- Manage Contacts
+
+### Portfolio Website
+- Dynamic content showcasing personal or company information
+- Display educational qualifications and work experience
+- Display completed projects
+
+## How to Run
+
+### Requirements
+- Download and install any local web server such as **XAMPP** or **WAMP**.
+
+### Installation/Setup
+
+1. **Download the source code zip file**.
+2. **Start Apache and MySQL**  
+   Open your **XAMPP/WAMP's Control Panel** and start the **Apache** and **MySQL** modules.
+3. **Extract the downloaded source code**.
+4. **Copy files to the web directory**:  
+   - If using **XAMPP**, copy the extracted folder and paste it into `C:/xampp/htdocs/`.
+   - If using **WAMP**, paste it into `C:/wamp/www/`.
+5. **Create the database**:
+   1. Open your web browser and navigate to `http://localhost/phpmyadmin`.
+   2. Create a new database named `db_freelance`.
+   3. Import the provided SQL file (`db_freelance.sql`) located inside the `database` folder.
+6. **Access the website and admin panel**:
+   - Portfolio Website: `http://localhost/freelance`
+   - Admin Panel: `http://localhost/freelance/admin`
+
+### Admin Access Information
+- **Username**: `admin`
+- **Password**: `admin123`
+
+## Templates Used
+The portfolio website template was downloaded from [all-free-download.com](https://all-free-download.com/) and authored by **Giri Designs**. The admin panel uses **AdminLTE** for its design.
+
+## Notes
+
+- The source code is free to download and modify as you see fit.
+- Ensure to scan the files for viruses before use, and avoid running compiled files such as `.exe`, `.dll`, etc.
+
+---
+
+**Happy Coding!**
